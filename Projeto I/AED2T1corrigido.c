@@ -2,9 +2,11 @@
 #include <stdlib.h>
 #include <string.h>
 
+//estas duas variáveis globáis eu to usando pra criar os vetores que vão armazenar os clientes e a o texto do arquivo em si
 #define MAX_LINHA 256
 #define MAX_CLIENTES 100
 
+//essa struct Configuracoes ta armazenando as informacoes da primeira linha do arquivo que sao a quantidade de pacientes, de salas, etc
 typedef struct {
     int quantidadeDePacientes;
     int quantidadeDeSalas;
@@ -13,6 +15,7 @@ typedef struct {
     int quantidadeDeOutrosEspecialistas;
 } Configuracoes;
 
+//essa aqui é para os clientes
 typedef struct {
     int id;
     int prioridade;
@@ -26,8 +29,8 @@ typedef struct {
     char medicacoes[100];
 } Cliente;
 
-// Função para remover o caractere de nova linha
-void remove_newline(char *linha) {
+// essa função ta removendo os /n que atrapalham na hora de ler as informacoes do arquivo
+void removeBarraN(char *linha) {
     size_t len = strlen(linha);
     if (len > 0 && linha[len - 1] == '\n') {
         linha[len - 1] = '\0';
@@ -91,6 +94,7 @@ void processaLinha(char *linha, Cliente *cliente) {
 }
 
 int main() {
+    //aqui eu crio uma variável para o arquivo, uma para o texto do arquivo, outra para as configurações e outra para os clientes e o contador tambem
     FILE *arquivo;
     char linha[MAX_LINHA];
     Configuracoes config;
@@ -99,6 +103,7 @@ int main() {
 
     // Abre o arquivo para leitura
     arquivo = fopen("dados.txt", "r");
+    //essa parte eh opcional
     if (arquivo == NULL) {
         perror("Erro ao abrir o arquivo");
         return 1;
@@ -106,13 +111,13 @@ int main() {
 
     // Lê a primeira linha do arquivo para processar as configurações gerais
     if (fgets(linha, sizeof(linha), arquivo)) {
-        remove_newline(linha);  // Remove o caractere de nova linha
+        removeBarraN(linha);  // Remove o caractere de nova linha
         processaConfiguracoes(linha, &config);
     }
 
     // Lê as demais linhas do arquivo para processar os clientes
     while (fgets(linha, sizeof(linha), arquivo)) {
-        remove_newline(linha);  // Remove o caractere de nova linha
+        removeBarraN(linha);  // Remove o caractere de nova linha
         if (count < MAX_CLIENTES) {
             processaLinha(linha, &clientes[count]);
             count++;
