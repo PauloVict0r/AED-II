@@ -1,14 +1,38 @@
 [CONFIGURACOES]
-10/3/2/3/1
+Pacientes: 16, Salas: 3, Cardiologistas: 2, Neurologistas: 1, Outros Especialistas: 3
 
 [MEDICOS]
-lula/cardiologista/0
-inacio/cardiologista/0
-vinicius/dermatologista/0
-francisco/dermatologista/0
-carlos/dermatologista/0
-claudio/neurologista/0
+Nome: Lula, Especialidade: cardiologista, Faltas: 0
+Nome: inacio, Especialidade: cardiologista, Faltas: 0
+Nome: vinicius, Especialidade: dermatologista, Faltas: 0
+Nome: francisco, Especialidade: dermatologista, Faltas: 0
+Nome: carlos, Especialidade: dermatologista, Faltas: 0
+Nome: claudio, Especialidade: neurologista, Faltas: 0
 
 [PACIENTES]
-1/10/cardiologista/joao/22/988008800/82.5/1.78/febre/dipirona/0
-2/20/dermatologista/maria/34/912345678/65.2/1.60/erupcao/tetraciclina/1
+id: 1, prioridade: 10, Especialidade: cardiologista, Nome: joao, Idade: 22, Tel: 988008800, Peso: 82.5, Altura: 1.78, Sintoma: febre, Medicacoes: dipirona, Faltas: 0
+id: 2, prioridade: 21, Especialidade: dermatologista, Nome: maria, Idade: 34, Tel: 912345678, Peso: 65.2, Altura: 1.60, Sintoma: erupcao, Medicacoes: tetraciclina, Faltas: 0
+id: 3, prioridade: 18, Especialidade: cardiologista, Nome: Mario, Idade: 22, Tel: 988008800, Peso: 82.5, Altura: 1.78, Sintoma: febre, Medicacoes: dipirona, Faltas: 0
+id: 4, prioridade: 11, Especialidade: dermatologista, Nome: Carlon, Idade: 34, Tel: 912345678, Peso: 65.2, Altura: 1.60, Sintoma: erupcao, Medicacoes: tetraciclina, Faltas: 0
+id: 5, prioridade: 15, Especialidade: cardiologista, Nome: Alan, Idade: 22, Tel: 988008800, Peso: 82.5, Altura: 1.78, Sintoma: febre, Medicacoes: dipirona, Faltas: 0
+id: 6, prioridade: 10, Especialidade: dermatologista, Nome: Kevin, Idade: 34, Tel: 912345678, Peso: 65.2, Altura: 1.60, Sintoma: erupcao, Medicacoes: tetraciclina, Faltas: 0
+id: 7, prioridade: 17, Especialidade: cardiologista, Nome: Bruno, Idade: 22, Tel: 988008800, Peso: 82.5, Altura: 1.78, Sintoma: febre, Medicacoes: dipirona, Faltas: 0
+id: 8, prioridade: 20, Especialidade: neurologista, Nome: Alvin, Idade: 34, Tel: 912345678, Peso: 65.2, Altura: 1.60, Sintoma: erupcao, Medicacoes: tetraciclina, Faltas: 0
+id: 9, prioridade: 10, Especialidade: cardiologista, Nome: A, Idade: 22, Tel: 988008800, Peso: 82.5, Altura: 1.78, Sintoma: febre, Medicacoes: dipirona, Faltas: 0
+id: 10, prioridade: 21, Especialidade: dermatologista, Nome: B, Idade: 34, Tel: 912345678, Peso: 65.2, Altura: 1.60, Sintoma: erupcao, Medicacoes: tetraciclina, Faltas: 0
+id: 11, prioridade: 18, Especialidade: cardiologista, Nome: C, Idade: 22, Tel: 988008800, Peso: 82.5, Altura: 1.78, Sintoma: febre, Medicacoes: dipirona, Faltas: 0
+id: 12, prioridade: 11, Especialidade: dermatologista, Nome: D, Idade: 34, Tel: 912345678, Peso: 65.2, Altura: 1.60, Sintoma: erupcao, Medicacoes: tetraciclina, Faltas: 0
+id: 13, prioridade: 15, Especialidade: cardiologista, Nome: E, Idade: 22, Tel: 988008800, Peso: 82.5, Altura: 1.78, Sintoma: febre, Medicacoes: dipirona, Faltas: 0
+id: 14, prioridade: 10, Especialidade: dermatologista, Nome: F, Idade: 34, Tel: 912345678, Peso: 65.2, Altura: 1.60, Sintoma: erupcao, Medicacoes: tetraciclina, Faltas: 0
+id: 15, prioridade: 17, Especialidade: cardiologista, Nome: G, Idade: 22, Tel: 988008800, Peso: 82.5, Altura: 1.78, Sintoma: febre, Medicacoes: dipirona, Faltas: 0
+id: 16, prioridade: 20, Especialidade: neurologista, Nome: L, Idade: 34, Tel: 912345678, Peso: 65.2, Altura: 1.60, Sintoma: erupcao, Medicacoes: tetraciclina, Faltas: 0
+id: 17, prioridade: 17, Especialidade: cardiologista, Nome: Z, Idade: 22, Tel: 988008800, Peso: 82.5, Altura: 1.78, Sintoma: febre, Medicacoes: dipirona, Faltas: 0
+id: 18, prioridade: 20, Especialidade: neurologista, Nome: Y, Idade: 34, Tel: 912345678, Peso: 65.2, Altura: 1.60, Sintoma: erupcao, Medicacoes: tetraciclina, Faltas: 0
+id: 19, prioridade: 10, Especialidade: cardiologista, Nome: X, Idade: 22, Tel: 988008800, Peso: 82.5, Altura: 1.78, Sintoma: febre, Medicacoes: dipirona, Faltas: 0
+id: 20, prioridade: 21, Especialidade: dermatologista, Nome: W, Idade: 34, Tel: 912345678, Peso: 65.2, Altura: 1.60, Sintoma: erupcao, Medicacoes: tetraciclina, Faltas: 0
+id: 21, prioridade: 18, Especialidade: cardiologista, Nome: V, Idade: 22, Tel: 988008800, Peso: 82.5, Altura: 1.78, Sintoma: febre, Medicacoes: dipirona, Faltas: 0
+id: 22, prioridade: 11, Especialidade: dermatologista, Nome: T, Idade: 34, Tel: 912345678, Peso: 65.2, Altura: 1.60, Sintoma: erupcao, Medicacoes: tetraciclina, Faltas: 0
+id: 23, prioridade: 15, Especialidade: cardiologista, Nome: O, Idade: 22, Tel: 988008800, Peso: 82.5, Altura: 1.78, Sintoma: febre, Medicacoes: dipirona, Faltas: 0
+id: 24, prioridade: 10, Especialidade: dermatologista, Nome: P, Idade: 34, Tel: 912345678, Peso: 65.2, Altura: 1.60, Sintoma: erupcao, Medicacoes: tetraciclina, Faltas: 0
+id: 25, prioridade: 17, Especialidade: cardiologista, Nome: Q, Idade: 22, Tel: 988008800, Peso: 82.5, Altura: 1.78, Sintoma: febre, Medicacoes: dipirona, Faltas: 0
+id: 26, prioridade: 20, Especialidade: neurologista, Nome: R, Idade: 34, Tel: 912345678, Peso: 65.2, Altura: 1.60, Sintoma: erupcao, Medicacoes: tetraciclina, Faltas: 0

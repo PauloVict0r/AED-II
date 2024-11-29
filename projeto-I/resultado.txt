@@ -1,0 +1,231 @@
+Configurações:
++----------------------------+
+| Pacientes            |  16 |
+| Salas                |   3 |
+| Cardiologistas       |   2 |
+| Neurologistas        |   1 |
+| Outros Especialistas |   3 |
++----------------------------+
+
+Médicos:
++--------------------------------------------------------+
+| Nome                 | Especialidade        |  Faltas  |
++--------------------------------------------------------+
+| Lula                 | cardiologista        |    0	 |
+| inacio               | cardiologista        |    0	 |
+| vinicius             | dermatologista       |    0	 |
+| francisco            | dermatologista       |    0	 |
+| carlos               | dermatologista       |    0	 |
+| claudio              | neurologista         |    0	 |
++--------------------------------------------------------+
+
+Pacientes:
++-------------------------------------------------------------------------------------------------------------+
+| ID    | Prioridade   | Nome                      | Idade | Telefone     | Peso   | Altura | Especialidade   |
++-------------------------------------------------------------------------------------------------------------+
+| 1     | 10           | joao                      | 22    | 988008800    | 82.50  | 1.78   | cardiologista   |
+| 2     | 21           | maria                     | 34    | 912345678    | 65.20  | 1.60   | dermatologista  |
+| 3     | 18           | Mario                     | 22    | 988008800    | 82.50  | 1.78   | cardiologista   |
+| 4     | 11           | Carlon                    | 34    | 912345678    | 65.20  | 1.60   | dermatologista  |
+| 5     | 15           | Alan                      | 22    | 988008800    | 82.50  | 1.78   | cardiologista   |
+| 6     | 10           | Kevin                     | 34    | 912345678    | 65.20  | 1.60   | dermatologista  |
+| 7     | 17           | Bruno                     | 22    | 988008800    | 82.50  | 1.78   | cardiologista   |
+| 8     | 20           | Alvin                     | 34    | 912345678    | 65.20  | 1.60   | neurologista    |
+| 9     | 10           | A                         | 22    | 988008800    | 82.50  | 1.78   | cardiologista   |
+| 10    | 21           | B                         | 34    | 912345678    | 65.20  | 1.60   | dermatologista  |
+| 11    | 18           | C                         | 22    | 988008800    | 82.50  | 1.78   | cardiologista   |
+| 12    | 11           | D                         | 34    | 912345678    | 65.20  | 1.60   | dermatologista  |
+| 13    | 15           | E                         | 22    | 988008800    | 82.50  | 1.78   | cardiologista   |
+| 14    | 10           | F                         | 34    | 912345678    | 65.20  | 1.60   | dermatologista  |
+| 15    | 17           | G                         | 22    | 988008800    | 82.50  | 1.78   | cardiologista   |
+| 16    | 20           | L                         | 34    | 912345678    | 65.20  | 1.60   | neurologista    |
+| 17    | 17           | Z                         | 22    | 988008800    | 82.50  | 1.78   | cardiologista   |
+| 18    | 20           | Y                         | 34    | 912345678    | 65.20  | 1.60   | neurologista    |
+| 19    | 10           | X                         | 22    | 988008800    | 82.50  | 1.78   | cardiologista   |
+| 20    | 21           | W                         | 34    | 912345678    | 65.20  | 1.60   | dermatologista  |
+| 21    | 18           | V                         | 22    | 988008800    | 82.50  | 1.78   | cardiologista   |
+| 22    | 11           | T                         | 34    | 912345678    | 65.20  | 1.60   | dermatologista  |
+| 23    | 15           | O                         | 22    | 988008800    | 82.50  | 1.78   | cardiologista   |
+| 24    | 10           | P                         | 34    | 912345678    | 65.20  | 1.60   | dermatologista  |
+| 25    | 17           | Q                         | 22    | 988008800    | 82.50  | 1.78   | cardiologista   |
+| 26    | 20           | R                         | 34    | 912345678    | 65.20  | 1.60   | neurologista    |
++-------------------------------------------------------------------------------------------------------------+
+
+Detalhes adicionais:
++------------------------------------------------------------------+
+| Sintoma                   | Medicações              |  Faltas  |
++------------------------------------------------------------------+
+| febre                     |                           |    0     |
+| erupcao                   |                           |    0     |
+| febre                     |                           |    0     |
+| erupcao                   |                           |    0     |
+| febre                     |                           |    0     |
+| erupcao                   |                           |    0     |
+| febre                     |                           |    0     |
+| erupcao                   |                           |    0     |
+| febre                     |                           |    0     |
+| erupcao                   |                           |    0     |
+| febre                     |                           |    0     |
+| erupcao                   |                           |    0     |
+| febre                     |                           |    0     |
+| erupcao                   |                           |    0     |
+| febre                     |                           |    0     |
+| erupcao                   |                           |    0     |
+| febre                     |                           |    0     |
+| erupcao                   |                           |    0     |
+| febre                     |                           |    0     |
+| erupcao                   |                           |    0     |
+| febre                     |                           |    0     |
+| erupcao                   |                           |    0     |
+| febre                     |                           |    0     |
+| erupcao                   |                           |    0     |
+| febre                     |                           |    0     |
+| erupcao                   |                           |    0     |
++------------------------------------------------------------------+
+
+Heap atual: (ID: 2, Valor: 21) (ID: 10, Valor: 21) (ID: 26, Valor: 20) (ID: 16, Valor: 20) (ID: 20, Valor: 21) (ID: 3, Valor: 18) (ID: 7, Valor: 17) (ID: 17, Valor: 17) (ID: 18, Valor: 20) (ID: 8, Valor: 20) (ID: 11, Valor: 18) (ID: 13, Valor: 15) (ID: 25, Valor: 17) (ID: 14, Valor: 10) (ID: 15, Valor: 17) (ID: 1, Valor: 10) (ID: 5, Valor: 15) (ID: 9, Valor: 10) (ID: 19, Valor: 10) (ID: 4, Valor: 11) (ID: 21, Valor: 18) (ID: 22, Valor: 11) (ID: 23, Valor: 15) (ID: 24, Valor: 10) (ID: 6, Valor: 10) (ID: 12, Valor: 11) 
+
+Elemento máximo: (ID: 2, Valor: 21)
+O paciente de id: 2 nome: maria, está em na sala: 1 com o médico: vinicius no dia: 1 hora: 8:00hrs
+
+Extraindo elemento máximo: (ID: 2, Valor: 21)
+
+O paciente de id: 10 nome: B, está em na sala: 2 com o médico: francisco no dia: 1 hora: 8:00hrs
+
+Extraindo elemento máximo: (ID: 10, Valor: 21)
+
+O paciente de id: 20 nome: W, está em na sala: 3 com o médico: carlos no dia: 1 hora: 8:00hrs
+
+Extraindo elemento máximo: (ID: 20, Valor: 21)
+
+O paciente de id: 16 nome: L, está em na sala: 4 com o médico: claudio no dia: 1 hora: 8:00hrs
+
+Extraindo elemento máximo: (ID: 16, Valor: 20)
+
+O paciente de id: 18 nome: Y, está em na sala: 1 com o médico: claudio no dia: 1 hora: 9:00hrs
+
+Extraindo elemento máximo: (ID: 18, Valor: 20)
+
+O paciente de id: 8 nome: Alvin, está em na sala: 1 com o médico: claudio no dia: 1 hora: 10:00hrs
+
+Extraindo elemento máximo: (ID: 8, Valor: 20)
+
+O paciente de id: 26 nome: R, está em na sala: 1 com o médico: claudio no dia: 1 hora: 11:00hrs
+
+Extraindo elemento máximo: (ID: 26, Valor: 20)
+
+O paciente de id: 21 nome: V, está em na sala: 2 com o médico: Lula no dia: 1 hora: 11:00hrs
+
+Extraindo elemento máximo: (ID: 21, Valor: 18)
+
+O paciente de id: 11 nome: C, está em na sala: 3 com o médico: inacio no dia: 1 hora: 11:00hrs
+
+Extraindo elemento máximo: (ID: 11, Valor: 18)
+
+O paciente de id: 3 nome: Mario, está em na sala: 1 com o médico: Lula no dia: 1 hora: 12:00hrs
+
+Extraindo elemento máximo: (ID: 3, Valor: 18)
+
+O paciente de id: 17 nome: Z, está em na sala: 2 com o médico: inacio no dia: 1 hora: 12:00hrs
+
+Extraindo elemento máximo: (ID: 17, Valor: 17)
+
+O paciente de id: 25 nome: Q, está em na sala: 1 com o médico: Lula no dia: 1 hora: 13:00hrs
+
+Extraindo elemento máximo: (ID: 25, Valor: 17)
+
+O paciente de id: 7 nome: Bruno, está em na sala: 2 com o médico: inacio no dia: 1 hora: 13:00hrs
+
+Extraindo elemento máximo: (ID: 7, Valor: 17)
+
+O paciente de id: 15 nome: G, está em na sala: 1 com o médico: Lula no dia: 1 hora: 14:00hrs
+
+Extraindo elemento máximo: (ID: 15, Valor: 17)
+
+Retorno - O paciente de id: 18 nome: Y, está em na sala: 2 com o médico: claudio no dia: 1 hora: 14:00hrs
+
+Extraindo elemento máximo: (ID: 18, Valor: 16)
+
+O paciente de id: 5 nome: Alan, está em na sala: 3 com o médico: inacio no dia: 1 hora: 14:00hrs
+
+Extraindo elemento máximo: (ID: 5, Valor: 15)
+
+O paciente de id: 23 nome: O, está em na sala: 1 com o médico: Lula no dia: 1 hora: 15:00hrs
+
+Extraindo elemento máximo: (ID: 23, Valor: 15)
+
+O paciente de id: 13 nome: E, está em na sala: 2 com o médico: inacio no dia: 1 hora: 15:00hrs
+
+Extraindo elemento máximo: (ID: 13, Valor: 15)
+
+O paciente de id: 4 nome: Carlon, está em na sala: 3 com o médico: vinicius no dia: 1 hora: 15:00hrs
+
+Extraindo elemento máximo: (ID: 4, Valor: 11)
+
+O paciente de id: 12 nome: D, está em na sala: 4 com o médico: francisco no dia: 1 hora: 15:00hrs
+
+Extraindo elemento máximo: (ID: 12, Valor: 11)
+
+O paciente de id: 22 nome: T, está em na sala: 5 com o médico: carlos no dia: 1 hora: 15:00hrs
+
+Extraindo elemento máximo: (ID: 22, Valor: 18)
+
+Retorno - O paciente de id: 22 nome: T, está em na sala: 1 com o médico: vinicius no dia: 1 hora: 16:00hrs
+
+Extraindo elemento máximo: (ID: 22, Valor: 11)
+
+O paciente de id: 6 nome: Kevin, está em na sala: 2 com o médico: francisco no dia: 1 hora: 16:00hrs
+
+Extraindo elemento máximo: (ID: 6, Valor: 11)
+
+O paciente de id: 19 nome: X, está em na sala: 3 com o médico: Lula no dia: 1 hora: 16:00hrs
+
+Extraindo elemento máximo: (ID: 19, Valor: 13)
+
+O paciente de id: 24 nome: P, está em na sala: 4 com o médico: carlos no dia: 1 hora: 16:00hrs
+
+Extraindo elemento máximo: (ID: 24, Valor: 10)
+
+O paciente de id: 14 nome: F, está em na sala: 1 com o médico: vinicius no dia: 2 hora: 8:00hrs
+
+Extraindo elemento máximo: (ID: 14, Valor: 13)
+
+Retorno - O paciente de id: 6 nome: Kevin, está em na sala: 2 com o médico: francisco no dia: 2 hora: 8:00hrs
+
+Extraindo elemento máximo: (ID: 6, Valor: 10)
+
+O paciente de id: 1 nome: joao, está em na sala: 3 com o médico: Lula no dia: 2 hora: 8:00hrs
+
+Extraindo elemento máximo: (ID: 1, Valor: 10)
+
+Retorno - O paciente de id: 23 nome: O, está em na sala: 4 com o médico: inacio no dia: 2 hora: 8:00hrs
+
+Extraindo elemento máximo: (ID: 23, Valor: 10)
+
+Retorno - O paciente de id: 4 nome: Carlon, está em na sala: 5 com o médico: carlos no dia: 2 hora: 8:00hrs
+
+Extraindo elemento máximo: (ID: 4, Valor: 10)
+
+Retorno - O paciente de id: 19 nome: X, está em na sala: 1 com o médico: Lula no dia: 2 hora: 9:00hrs
+
+Extraindo elemento máximo: (ID: 19, Valor: 10)
+
+Retorno - O paciente de id: 14 nome: F, está em na sala: 2 com o médico: vinicius no dia: 2 hora: 9:00hrs
+
+Extraindo elemento máximo: (ID: 14, Valor: 10)
+
+O paciente de id: 9 nome: A, está em na sala: 3 com o médico: inacio no dia: 2 hora: 9:00hrs
+
+Extraindo elemento máximo: (ID: 9, Valor: 9)
+
+O médico: Lula, trabalhou: 8 horas.
+O médico: inacio, trabalhou: 7 horas.
+O médico: claudio, trabalhou: 5 horas.
+O médico: vinicius, trabalhou: 5 horas.
+O médico: francisco, trabalhou: 4 horas.
+O médico: carlos, trabalhou: 4 horas.
+
+horas: 6
+
+Vamos precisar de 1 dias.
+
